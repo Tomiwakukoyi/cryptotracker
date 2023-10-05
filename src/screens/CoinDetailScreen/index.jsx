@@ -9,7 +9,7 @@ const CoinDetailScreen = () => {
     market_data: { market_cap_rank },
   } = crypto;
   return (
-    <View>
+    <View style={{ flexDirection: "row" }}>
       <Ionicons name="chevron-back-sharp" size={38} color="white" />
       <Image source={{ uri: small }} style={{ width: 25, height: 25 }} />
       <Text style={{ color: "white" }}>{name}</Text>
